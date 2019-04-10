@@ -1,0 +1,12 @@
+.card-image .card-title {
+  background: rgba(0,0,0,0.5);
+}
+
+.responsive-img {
+  margin-top: 40px;
+}
+
+#mapid {
+  height: 40vh;
+  margin-top: 20px;
+}
