@@ -190,6 +190,7 @@ class UI {
     // init map
     const mymap = L.map('mapid').setView(coordinates, 9);
 
+    // domain specific map key
     const mapKey = 'pk.eyJ1Ijoia3JpbmcxMjEiLCJhIjoiY2p1YnR2d3BzMGhiMDN6cW52eTV1bnNpdyJ9.fzJdMS2rH0IrB8YyZKYeHA';
 
     L.tileLayer(`https://api.tiles.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=${mapKey}`, {
