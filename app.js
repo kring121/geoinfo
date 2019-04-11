@@ -55,7 +55,10 @@ function countrySelection(e) {
 
   // search that country
   country.getCountry('alpha', countryCode)
-  .then(data => ui.countryInfoPage(data).then(ui.mapInit(data)));
+  .then(
+    data => ui.countryInfoPage(data)
+    .then(ui.mapInit(data))
+    );
 }
 
 
