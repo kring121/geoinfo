@@ -190,7 +190,7 @@ class UI {
     // init map
     const mymap = L.map('mapid').setView(coordinates, 7);
 
-    const mapKey = env.MAP_KEY;
+    const mapKey = 'pk.eyJ1Ijoia3JpbmcxMjEiLCJhIjoiY2p1YnR2d3BzMGhiMDN6cW52eTV1bnNpdyJ9.fzJdMS2rH0IrB8YyZKYeHA';
 
     L.tileLayer(`https://api.tiles.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=${mapKey}`, {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
