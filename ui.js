@@ -188,7 +188,7 @@ class UI {
     const coordinates = countryData.response.latlng;
 
     // init map
-    const mymap = L.map('mapid').setView(coordinates, 7);
+    const mymap = L.map('mapid').setView(coordinates, 10);
 
     const mapKey = 'pk.eyJ1Ijoia3JpbmcxMjEiLCJhIjoiY2p1YnR2d3BzMGhiMDN6cW52eTV1bnNpdyJ9.fzJdMS2rH0IrB8YyZKYeHA';
 
